@@ -250,7 +250,7 @@ public class UnrealEnginePython : ModuleRules
                 }
                 PublicIncludePaths.Add(includesPath);
                 PublicAdditionalLibraries.Add(libsPath);
-
+                PublicIncludePaths.Add(Path.Combine(ModuleDirectory, "Include"));
             }
             else
             {
